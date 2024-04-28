@@ -58,6 +58,15 @@ public class Practice_set4 {
         }else {
             System.out.println("indian website");
         }
+        //Problem4
+        Scanner year1=new Scanner(System.in);
+        System.out.println("Enter the year :");
+        int year = year1.nextInt();
+        if(year%100==0 && year%400==0 || year%100!=0 && year%4==0){
+            System.out.println("Its leap year ");
+        }else{
+            System.out.println("Not a leap year");
+        }
 
     }
 }
