@@ -67,7 +67,17 @@ public class Day_11_video_19 {
             System.out.println(year + " is not a leap year.");
         }
         
-        
+        //Question 5
+         Scanner sc = new Scanner(System.in);
+        String x = sc.next();
+        if(x.endsWith(".in")){
+            System.out.println("Indian website :");
+        }else if(x.endsWith(".org")){
+            System.out.println("Organisation website");
+        }else if(x.endsWith(".com")){
+            System.out.println("Commercial website");
+        }
+
 
 
     }
